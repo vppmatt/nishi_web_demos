@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Alexander Howick">
+<title> Table Demo</title><!-- page title-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+body{
+    background-color: powderblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+form{
+    background-color: #fff;
+    max-width: 500px;
+    padding: 30px 20px;
+    margin: 50px auto;
+}
+
+
+</style>
+
+
+</head>
+<h2>Html Form</h2>
+<body>
+    <form id="form">
+        <label>username : <input type="text" name="uname"></label><br>
+        <label>Password : <input type="password" name="pass"></label><br>
+        <input type="radio" name="gen" id="male">
+        <label for="male" >Male</label>
+        <input type="radio" name="gen" id="female">
+        <label for="female" >Female</label><br>
+        <input type="checkbox" name="sports" id="one">
+        <label for="football">Football</label>
+        <input type="checkbox" name="sports" id="cricket">
+    <label for="cricket">Cricket</label>
+    <input type="checkbox" name="sports" id="baseball">
+    <label for="baseball">Baseball</label><br>
+    <br>
+    <label for="file-select">Upload:</label>
+    <input type="file" name="upload" id="file-select"><br>
+    <label for="city"> City</label>
+    <select name="city" id="city">
+        <option value="Sydney">Sydney</option>
+        <option value="New York">New York</option>
+        <option value="Melbourne">Melbourne</option>
+    </select>
+
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
